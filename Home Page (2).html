@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The New York Times</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nyt-header">
+  <div class="top-row">
+    <div class="left-top">
+      <div id="date"></div>
+      <div class="paper">Today's Paper</div>
+    </div>
+
+    <div class="center-top">
+      <span>U.S.</span>
+      <span>INTERNATIONAL</span>
+      <span>CANADA</span>
+      <span>ESPAÑOL</span>
+      <span>中文</span>
+    </div>
+
+    <div class="right-top">
+      <button class="sub">SUBSCRIBE FOR $0.25/WEEK</button>
+      <button class="login">LOG IN</button>
+      <div class="dow">Dow <span>-0.58%</span></div>
+    </div>
+  </div>
+
+  <div class="logo">The New York Times</div>
+
+  <nav class="main-nav">
+    <span>U.S.</span>
+    <span>World</span>
+    <span>Business</span>
+    <span>Arts</span>
+    <span>Lifestyle</span>
+    <span>Opinion</span>
+    <span>Video</span>
+    <span>Audio</span>
+    <span>Games</span>
+    <span>Cooking</span>
+    <span>Wirecutter</span>
+    <span>The Athletic</span>
+  </nav>
+
+  <div class="double-line"></div>
+</header>
+
+<main class="layout">
+
+  <section class="left">
+    <div class="label">ANALYSIS</div>
+    <h1>What Europe Learned From the Greenland Crisis</h1>
+    <p>
+      Territorial integrity is a core tenet of Europe that is at risk from
+      Russian and American imperialism. Brussels has fought back.
+    </p>
+    <div class="read">5 MIN READ</div>
+
+    <div class="divider"></div>
+
+    <h2>Denmark’s Prime Minister Makes Unannounced Visit to Greenland</h2>
+    <div class="read">3 MIN READ</div>
+  </section>
+
+  <section class="center">
+            <img src="https://static01.nyt.com/images/2026/01/24/multimedia/24int-europe-sovereignty-assess-01-jbpg/24int-europe-sovereignty-assess-01-jbpg-threeByTwoMediumAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale">
+    <div class="caption">Juliette Pavy for The New York Times</div>
+  </section>
+
+  <aside class="right">
+    <div class="grid">
+            <img src="https://static01.nyt.com/images/2026/01/23/multimedia/23re-DIY-TOOLS-GRID-HP-04-wpkj/23re-DIY-TOOLS-GRID-HP-04-wpkj-square640.jpg?quality=75&auto=webp">
+            <img src="https://static01.nyt.com/images/2026/01/23/multimedia/23re-DIY-TOOLS-GRID-HP-01-wpkj/23re-DIY-TOOLS-GRID-HP-01-wpkj-square640.jpg?quality=75&auto=webp">
+            <img src="https://static01.nyt.com/images/2026/01/23/multimedia/23re-DIY-TOOLS-GRID-HP-03-wpkj/23re-DIY-TOOLS-GRID-HP-03-wpkj-square640.jpg?quality=75&auto=webp">
+            <img src="https://static01.nyt.com/images/2026/01/23/multimedia/23re-DIY-TOOLS-GRID-HP-05-wpkj/23re-DIY-TOOLS-GRID-HP-05-wpkj-square640.jpg?quality=75&auto=webp">
+
+    </div>
+
+    <h1>D.I.Y. Tools Everyone Should Own (and Why They’re So Small)</h1>
+    <p>
+      Whether you’re working on a simple fix or a big project, the smaller
+      version of a tool is almost always the better one.
+    </p>
+    <div class="read">5 MIN READ</div>
+  </aside>
+
+</main>
+
+<script>
+const options = { weekday:'long', year:'numeric', month:'long', day:'numeric' };
+document.getElementById("date").innerText =
+  new Date().toLocaleDateString('en-US', options);
+</script>
+
+</body>
+</html>
