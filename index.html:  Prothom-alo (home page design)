@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Prothom Alo</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<!-- TOP BAR --> 
+<div class="top-bar"> 
+<div class="date">Saturday, 1 February 2026</div> 
+<div class="actions"> 
+<button>Login</button> 
+<button class="subscribe">Subscribe</button> 
+</div> 
+</div> 
+<!-- HEADER --> 
+<header class="header"> 
+<h1 class="logo">Prothom-alo</h1> 
+<p class="tagline"> 
+Latest | Bangladesh | World | Trade | Opinion | Game | Entertainment | Jobs | Lifestyle 
+</p> 
+</header> 
+<hr class="double-line"> 
+<!-- MAIN LAYOUT --> 
+<main class="layout"> 
+<!-- LEFT --> 
+<section class="left"> 
+<span class="tag">Analysis</span> 
+<h2>New challenges in the country's economy</h2> 
+<p> 
+Inflation, dollar crisis and import expenditure pressure 
+</p> 
+on the country's economy created new challenges. 
+<div class="read">Read in 5 minutes</div> 
+<hr> 
+<h3>Political unrest and its effects</h3> 
+<div class="read">Read in 3 minutes</div> 
+</section> 
+<!-- CENTER IMAGE --> 
+<section class="center"> 
+<img 
+src="https://picsum.photos/900/500?random=1" 
+alt="Main News Image"> 
+<p class="caption">Photo: Demo Image</p> 
+</section> 
+<!-- RIGHT --> 
+<aside class="right"> 
+<div class="grid"> 
+<img src="https://picsum.photos/200/200?random=2"> 
+<img src="https://picsum.photos/200/200?random=3"> 
+<img src="https://picsum.photos/200/200?random=4"> 
+<img src="https://picsum.photos/200/200?random=5"> 
+</div> 
+<h3>Today's hot news</h3> 
+<p> 
+Today's important report on education, technology and employment. 
+</p> 
+<div class="read">Read in 4 minutes</div> 
+</aside> 
+</main> 
+<!-- FOOTER --> 
+<footer class="footer"> 
+<p>© 2026 Prothom Alo | Educational Demo Web Design</p> 
+</footer> 
+</body> 
+</html> 
