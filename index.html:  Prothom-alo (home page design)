@@ -9,7 +9,7 @@
 <body> 
 <!-- TOP BAR --> 
 <div class="top-bar"> 
-<div class="date">Saturday, 1 February 2026</div> 
+<div class="date">Sunday, 2 February 2026</div> 
 <div class="actions"> 
 <button>Login</button> 
 <button class="subscribe">Subscribe</button> 
