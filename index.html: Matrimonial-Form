@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Matrimonial Biodata Form</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<div class="container"> 
+<h1>Matrimonial Biodata Form</h1> 
+<p class="subtitle">Please fill in all required information carefully</p> 
+<form> 
+<!-- Personal Information --> 
+<fieldset> 
+<legend>Personal Information</legend> 
+<label>Full Name</label> 
+<input type="text" placeholder="Enter your full name" required> 
+<label>Gender</label> 
+<select required> 
+<option value="">Select</option> 
+<option>Male</option> 
+<option>Female</option> 
+</select> 
+<label>Date of Birth</label> 
+<input type="date" required> 
+<label>Height</label> 
+<input type="text" placeholder="e.g. 5 ft 7 in"> 
+<label>Marital Status</label> 
+<select> 
+<option>Unmarried</option> 
+<option>Divorced</option> 
+<option>Widow/Widower</option> 
+</select> 
+</fieldset> 
+<!-- Religious Information --> 
+<fieldset> 
+<legend>Religious Information</legend> 
+<label>Religion</label> 
+<input type="text" placeholder="e.g. Islam"> 
+<label>Cast</label> 
+<input type="text" placeholder="Optional"> 
+<label>Prayer Habit</label> 
+<select> 
+<option>Regular</option> 
+<option>Occasional</option> 
+<option>Not Regular</option> 
+</select> 
+</fieldset> 
+<!-- Education & Career --> 
+<fieldset> 
+<legend>Education & Career</legend> 
+<label>Highest Education</label> 
+<input type="text" placeholder="e.g. B.Sc in CSE"> 
+<label>Profession</label> 
+<input type="text" placeholder="e.g. Software Engineer"> 
+<label>Monthly Income</label> 
+<input type="text" placeholder="Optional"> 
+</fieldset> 
+<!-- Family Information --> 
+<fieldset> 
+<legend>Family Information</legend> 
+<label>Father's Occupation</label> 
+<input type="text"> 
+<label>Mother's Occupation</label> 
+<input type="text"> 
+<label>Siblings</label> 
+<input type="text" placeholder="e.g. 1 brother, 1 sister"> 
+</fieldset> 
+<!-- Contact Information --> 
+<fieldset> 
+<legend>Contact Information</legend> 
+<label>Phone Number</label> 
+<input type="tel" placeholder="e.g. 01XXXXXXXXX" required> 
+<label>Email Address</label> 
+<input type="email" placeholder="example@email.com"> 
+<label>Present Address</label> 
+<textarea rows="3"></textarea> 
+</fieldset> 
+<!-- Partner Preference --> 
+<fieldset> 
+<legend>Partner Preference</legend> 
+<label>Preferred Age Range</label> 
+<input type="text" placeholder="e.g. 22 - 28"> 
+<label>Preferred Education</label> 
+<input type="text"> 
+<label>Additional Expectations</label> 
+<textarea rows="3"></textarea> 
+</fieldset> 
+<!-- Submit --> 
+<button type="submit">Submit Biodata</button> 
+</form> 
+</div> 
+</body> 
+</html>
